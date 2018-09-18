@@ -28,6 +28,7 @@ class PTTSpider():
 
     headers = {
         'user-agent': settings.USER_AGENT,
+        'cookie': 'over18=1',
     }
 
     def __init__(self, board, loop):
